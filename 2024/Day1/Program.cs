@@ -1,8 +1,8 @@
-﻿class Program
+﻿public class Program
 {
-    static int DistanceBetweenPair((int left, int right) pair) => Math.Abs(pair.left - pair.right);
+    public static int DistanceBetweenPair((int left, int right) pair) => Math.Abs(pair.left - pair.right);
 
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         if (args.Length == 0)
         {
